@@ -1,1 +1,243 @@
-// main app code page will be here
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Cosmic Reset: Why 'The Star' is Your Ultimate Guide for the Aquarius Age</title>
+    <style>
+        /* --- Modern & Mystical CSS Variables --- */
+        :root {
+            --bg-color: #0b0c10;
+            --card-bg: #1f2833;
+            --text-main: #c5a880; /* Elegant Gold */
+            --text-body: #e5e5e5;
+            --accent-glow: #4fb99f; /* Mystical Teal */
+            --accent-purple: #8a2be2;
+            --font-serif: 'Playfair Display', Georgia, serif;
+            --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+        }
+
+        /* --- Reset & Base Styles --- */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-body);
+            font-family: var(--font-sans);
+            line-height: 1.8;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        /* --- Header / Navigation --- */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem 5%;
+            border-bottom: 1px solid rgba(197, 168, 128, 0.2);
+        }
+
+        .logo {
+            font-family: var(--font-serif);
+            color: var(--text-main);
+            font-size: 1.5rem;
+            text-decoration: none;
+            font-weight: bold;
+            letter-spacing: 2px;
+        }
+
+        /* --- Blog Layout --- */
+        .container {
+            max-width: 800px;
+            margin: 4rem auto;
+            padding: 0 20px;
+        }
+
+        /* --- Hero Section --- */
+        .post-meta {
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--accent-glow);
+            margin-bottom: 1rem;
+            display: block;
+        }
+
+        h1 {
+            font-family: var(--font-serif);
+            font-size: 3rem;
+            color: var(--text-main);
+            line-height: 1.2;
+            margin-bottom: 1.5rem;
+            text-shadow: 0 0 10px rgba(197, 168, 128, 0.1);
+        }
+
+        .author-box {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 3rem;
+            font-size: 0.95rem;
+            color: #888;
+        }
+
+        .author-img {
+            width: 40px;
+            height: 40px;
+            background: linear-gradient(45deg, var(--text-main), var(--accent-glow));
+            border-radius: 50%;
+        }
+
+        /* --- Featured SVG Graphic --- */
+        .featured-graphic {
+            width: 100%;
+            height: 350px;
+            background: radial-gradient(circle at center, #1a1528 0%, #0b0c10 100%);
+            border-radius: 12px;
+            margin-bottom: 3rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid rgba(79, 185, 159, 0.3);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        /* --- Article Content --- */
+        p {
+            font-size: 1.15rem;
+            margin-bottom: 2rem;
+            color: var(--text-body);
+        }
+
+        h2 {
+            font-family: var(--font-serif);
+            font-size: 2rem;
+            color: var(--text-main);
+            margin: 3rem 0 1.5rem 0;
+        }
+
+        blockquote {
+            border-left: 4px solid var(--accent-glow);
+            padding-left: 1.5rem;
+            margin: 2.5rem 0;
+            font-style: italic;
+            font-size: 1.25rem;
+            color: #fff;
+            background: rgba(79, 185, 159, 0.05);
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        /* --- Interactive Card Pull Out --- */
+        .card-breakout {
+            background-color: var(--card-bg);
+            border: 1px solid rgba(197, 168, 128, 0.3);
+            border-radius: 12px;
+            padding: 2.5rem;
+            margin: 3rem 0;
+            position: relative;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+        }
+
+        .card-breakout::before {
+            content: 'XVII';
+            position: absolute;
+            top: -20px;
+            right: 30px;
+            background: var(--bg-color);
+            padding: 5px 15px;
+            border: 1px solid rgba(197, 168, 128, 0.3);
+            border-radius: 20px;
+            font-family: var(--font-serif);
+            color: var(--text-main);
+        }
+
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            padding: 4rem 2rem;
+            margin-top: 6rem;
+            border-top: 1px solid rgba(197, 168, 128, 0.1);
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        /* --- Responsive Design --- */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.2rem; }
+            h2 { font-size: 1.6rem; }
+            .container { margin: 2rem auto; }
+            .featured-graphic { height: 250px; }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">MYSTICAL THREADS</a>
+    </header>
+
+    <main class="container">
+        <article>
+            <span class="post-meta">Tarot & Astrology • June 2026</span>
+            <h1>The Cosmic Reset: Why 'The Star' is Your Ultimate Guide for the Aquarius Transition</h1>
+            
+            <div class="author-box">
+                <div class="author-img"></div>
+                <div>By Cosmic Explorer • 5 min read</div>
+            </div>
+
+            <div class="featured-graphic">
+                <svg width="150" height="150" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="50" cy="50" r="45" stroke="#c5a880" stroke-width="1" stroke-dasharray="4 4"/>
+                    <path d="M50 15 L53 38 L76 41 L56 54 L62 77 L50 63 L38 77 L44 54 L24 41 L47 38 Z" fill="#4fb99f" opacity="0.8"/>
+                    <circle cx="50" cy="50" r="15" stroke="#c5a880" stroke-width="1"/>
+                    <circle cx="25" cy="25" r="2" fill="#fff"/>
+                    <circle cx="75" cy="30" r="3" fill="#fff"/>
+                    <circle cx="70" cy="70" r="2" fill="#fff"/>
+                </svg>
+            </div>
+
+            <p>We are officially living through one of the most monumental astrological shifts of our lifetime. As Pluto firmly anchors itself into the innovative, community-minded waters of Aquarius, the collective energy is shifting away from rigid hierarchies and toward decentralized power, collective healing, and major technological evolution.</p>
+
+            <p>But when the world shifts so quickly, it’s easy to feel ungrounded. How do we navigate a future that is being rewritten in real-time? The answer lies in Major Arcana Card 17: <strong>The Star</strong>.</p>
+
+            <h2>The Synergy of Aquarius and The Star</h2>
+            <p>In traditional tarot, The Star is the natural ruling card of Aquarius. It represents hope, renewal, and a deep spiritual downloading of cosmic truth. After the chaotic, foundational collapse brought by <em>The Tower</em> (which beautifully mirrors the end of Pluto in Capricorn), The Star arrives as a quiet, glowing exhale.</p>
+            
+            <blockquote>
+                "The Star doesn't ask you to build a new fortress; it asks you to pour your unique energy into the collective stream and trust that you will be sustained."
+            </blockquote>
+
+            <p>Look closely at the imagery of The Star. A naked figure pours water onto both the fertile earth and into the pool, symbolizing the harmonious balance between technology (Aquarius's intellectual side) and human soul connection. It reminds us that our future isn't just about AI, algorithms, and digital spaces—it's about how we use those tools to pour life back into humanity.</p>
+
+            <div class="card-breakout">
+                <h3>How to Channel 'The Star' This Week:</h3>
+                <br>
+                <ul>
+                    <li style="margin-bottom: 10px;"><strong>Pour Out What Overflows:</strong> Share your knowledge freely. Aquarius thrives on decentralized wisdom.</li>
+                    <li style="margin-bottom: 10px;"><strong>Look to the Big Picture:</strong> When day-to-day anxiety hits, zoom out. Trust the long-term trajectory of your life.</li>
+                    <li><strong>Audit Your Networks:</strong> Are your digital communities inspiring hope, or feeding frustration? Align with spaces that feel like starlight.</li>
+                </ul>
+            </div>
+
+            <h2>Navigating the New Dawn</h2>
+            <p>As you pull your cards this week, notice if The Star or any Aquarian cards (like the Star, the King of Swords, or the Six of Science/Swords) make an appearance. They are calling you to step into the role of the visionary. The old rules no longer apply. It is time to let your authentic light shine, unburdened by the past.</p>
+            
+            <p>How are you feeling the Pluto in Aquarius energy show up in your life? Have you pulled The Star recently? Drop your thoughts below and let's decode this new era together.</p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Mystical Threads. Built with magic on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
