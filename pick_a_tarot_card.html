@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What You Don’t See Coming — Tarot Pick a Card | Tarotly</title>
+    
+    <meta name="description" content="Discover what you don't see coming with our interactive Tarot Pick a Card reading. Reveal hidden opportunities, upcoming life changes, and divine guidance.">
+    <meta name="keywords" content="tarot pick a card, what you dont see coming tarot, daily tarot card reading app, intuitive tarot spread for future, free interactive tarot reading online, best app for accurate tarot card spreads">
+    <meta name="robots" content="index, follow">
+    
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="What You Don’t See Coming — Tarot Pick a Card">
+    <meta property="og:description" content="Reveal the hidden currents shaping your immediate future. Select a card and decode the universe's secret messages today.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1572945281861-68b291d03045?auto=format&fit=crop&w=1200&q=80">
+    <meta property="og:url" content="https://everydaytarotreading.github.io/tarotly/">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="What You Don’t See Coming — Tarot Pick a Card">
+    <meta property="twitter:description" content="Reveal the hidden currents shaping your immediate future. Select a card and decode the universe's secret messages today.">
+
+    <style>
+        :root {
+            --bg-color: #0f0a1c;
+            --surface-color: #1b132e;
+            --accent-color: #bf94ff;
+            --accent-hover: #d2b4ff;
+            --text-primary: #f3f0f7;
+            --text-secondary: #bfaecf;
+            --border-glow: rgba(191, 148, 255, 0.2);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 0;
+        }
+
+        header {
+            background: linear-gradient(to bottom, #160e29, var(--bg-color));
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-glow);
+        }
+
+        .header-tag {
+            color: var(--accent-color);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, #fff, var(--accent-color));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        .intro-text {
+            font-size: 1.15rem;
+            color: var(--text-secondary);
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .pick-card-section {
+            background: var(--surface-color);
+            border: 1px solid var(--border-glow);
+            border-radius: 16px;
+            padding: 30px;
+            text-align: center;
+            margin-bottom: 50px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+        }
+
+        .pick-card-section h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .card-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+
+        .card-placeholder {
+            width: 120px;
+            height: 200px;
+            background: linear-gradient(135deg, #251a3e 0%, #3d2963 100%);
+            border: 2px solid var(--accent-color);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent-color);
+            cursor: pointer;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+        .card-placeholder:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(191, 148, 255, 0.4);
+        }
+
+        .content-block {
+            margin-bottom: 40px;
+        }
+
+        .content-block h3 {
+            font-size: 1.4rem;
+            color: var(--accent-color);
+            margin-bottom: 15px;
+            border-left: 4px solid var(--accent-color);
+            padding-left: 12px;
+        }
+
+        .content-block p {
+            color: var(--text-secondary);
+            margin-bottom: 15px;
+            font-size: 1.05rem;
+        }
+
+        .cta-banner {
+            background: linear-gradient(135deg, #251342 0%, #110722 100%);
+            border: 1px solid var(--accent-color);
+            border-radius: 16px;
+            padding: 35px;
+            text-align: center;
+            margin-top: 60px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-banner::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(191,148,255,0.1) 0%, transparent 70%);
+            pointer-events: none;
+        }
+
+        .cta-banner h2 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+
+        .cta-banner p {
+            color: var(--text-secondary);
+            margin-bottom: 25px;
+            font-size: 1.1rem;
+        }
+
+        .seo-link {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: #0f0a1c;
+            padding: 14px 30px;
+            font-weight: 700;
+            font-size: 1.1rem;
+            text-decoration: none;
+            border-radius: 30px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 5px 20px rgba(191, 148, 255, 0.3);
+            margin: 10px 0;
+        }
+
+        .seo-link:hover {
+            background-color: var(--accent-hover);
+            transform: scale(1.03);
+        }
+
+        .contextual-seo-link {
+            color: var(--accent-color);
+            text-decoration: underline;
+            font-weight: 600;
+            transition: color 0.2s;
+        }
+
+        .contextual-seo-link:hover {
+            color: var(--accent-hover);
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #6a5681;
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border-glow);
+            margin-top: 60px;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .card-grid { gap: 12px; }
+            .card-placeholder { width: 90px; height: 150px; font-size: 1.2rem; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <span class="header-tag">Everyday Tarot Reading Presents</span>
+        <h1>What You Don’t See Coming</h1>
+        <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto;">An Intuitive Pick-A-Card Journey Into Your Hidden Future</p>
+    </header>
+
+    <div class="container">
+        
+        <p class="intro-text">
+            Life moves in waves, and often the most transformative shifts are the ones brewing quietly just beneath the surface. Take a deep breath, ground your energy, and look closely at the cards below. Which one whispers to your intuition?
+        </p>
+
+        <section class="pick-card-section">
+            <h2>Select Your Pile</h2>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 20px;">Clear your mind, ask yourself "What don't I see coming?", and choose a card below.</p>
+            <div class="card-grid">
+                <div class="card-placeholder" onclick="alert('To unlock the full, highly detailed reveal of Pile 1, download our complete interactive tarot reading online app linked below!')">Ⅰ</div>
+                <div class="card-placeholder" onclick="alert('To unlock the full, highly detailed reveal of Pile 2, download our complete interactive tarot reading online app linked below!')">Ⅱ</div>
+                <div class="card-placeholder" onclick="alert('To unlock the full, highly detailed reveal of Pile 3, download our complete interactive tarot reading online app linked below!')">Ⅲ</div>
+            </div>
+            <p style="font-size: 0.85rem; color: #8e76a6; font-style: italic;">Click on a card to reveal the hidden alignments energy.</p>
+        </section>
+
+        <div class="content-block">
+            <h3>Decoding Blindspots in Your Spiritual Journey</h3>
+            <p>
+                When performing a targeted <strong>what you dont see coming tarot</strong> layout, we peel back the layers of your subconscious mind. Often, your conscious ego focus is so anchored onto immediate worries—like project deadlines or routine anxieties—that you overlook a beautiful alignment taking form right outside your peripheral vision.
+            </p>
+            <p>
+                Whether it is an unexpected professional reconciliation, an unannounced shifting of tides in your relationship sector, or a hidden surge in your creative power, these unseen forces require preparation. Understanding these signs helps you shift from reactive living to conscious manifestation.
+            </p>
+        </div>
+
+        <div class="content-block">
+            <h3>Why Use Interactive Tarot Spreads for the Future?</h3>
+            <p>
+                Static readings offer great foundation, but life updates in real-time. Utilizing a premium digital <a href="https://play.google.com/store/apps/details?id=tarot.tarotcard.tarotcardreading.tarotreading&hl=en_IN" class="contextual-seo-link" target="_blank" rel="noopener">daily tarot card reading app</a> changes how you connect with divine guidance. It maps your energy daily, tracking changes as they happen.
+            </p>
+            <p>
+                Instead of waiting for life to surprise you, accessing an <a href="https://play.google.com/store/apps/details?id=tarot.tarotcard.tarotcardreading.tarotreading&hl=en_IN" class="contextual-seo-link" target="_blank" rel="noopener">intuitive tarot spread for future</a> trajectories empowers you to stay two steps ahead, turning potential obstacles into stepping stones for profound transformation.
+            </p>
+        </div>
+
+        <section class="cta-banner">
+            <h2>Take Your Readings Everywhere</h2>
+            <p>
+                Don't limit your self-reflection to a single page. Unlock deep, personalized analysis, complex multi-card layouts, and comprehensive meanings with our dedicated tool.
+            </p>
+            
+            <a href="https://play.google.com/store/apps/details?id=tarot.tarotcard.tarotcardreading.tarotreading&hl=en_IN" class="seo-link" target="_blank" rel="noopener">
+                Get the Best App for Accurate Tarot Card Spreads Now
+            </a>
+            
+            <p style="font-size: 0.85rem; margin-top: 15px; color: var(--accent-color);">
+                Available worldwide on Google Play. Developed proudly by Everyday Tarot Reading team.
+            </p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Everyday Tarot Reading team. All rights reserved.</p>
+        <p style="font-size: 0.8rem; margin-top: 5px;">Tarotly is designed for personal insight, mindfulness, and entertainment tracking purposes.</p>
+    </footer>
+
+</body>
+</html>
