@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3-Card Tarot Spread Guide: Meanings, Spreads & Daily Reading | Celestial Tarot</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Discover how to master the 3-card tarot spread for love, career, and daily guidance. Learn past-present-future spreads and download Celestial Tarot for instant mobile readings." />
+  <meta name="keywords" content="tarot spread, 3 card tarot spread, daily tarot reading, tarot card meanings, past present future tarot, tarot app" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yourusername.github.io/your-repo-name/" />
+
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Mastering the 3-Card Tarot Spread: The Ultimate Beginner Guide" />
+  <meta property="og:description" content="Unlock deep personal insights with classic 3-card tarot spreads. Plus, get personalized daily draws on the Celestial Tarot App." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1601024445121-e5b82f020549?auto=format&fit=crop&w=1200&q=80" />
+  <meta property="og:url" content="https://yourusername.github.io/your-repo-name/" />
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mastering the 3-Card Tarot Spread: The Ultimate Guide" />
+  <meta name="twitter:description" content="Learn simple, powerful tarot spreads and get daily AI readings with Celestial Tarot." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1601024445121-e5b82f020549?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Schema.org JSON-LD Markup -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Mastering the 3-Card Tarot Spread: Meanings, Spreads & Daily Guidance",
+        "description": "Comprehensive guide to 3-card tarot layouts for love, career, and personal growth.",
+        "image": "https://images.unsplash.com/photo-1601024445121-e5b82f020549?auto=format&fit=crop&w=1200&q=80",
+        "author": {
+          "@type": "Organization",
+          "name": "Celestial Tarot"
+        },
+        "publisher": {
+          "@type": "Organization",
+          "name": "Celestial Tarot"
+        }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "Celestial Tarot App",
+        "operatingSystem": "iOS, Android",
+        "applicationCategory": "LifestyleApplication",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "ratingCount": "1280"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    :root {
+      --bg-dark: #0a0712;
+      --bg-card: rgba(23, 17, 38, 0.7);
+      --purple-primary: #8a4fff;
+      --purple-glow: rgba(138, 79, 255, 0.35);
+      --gold-accent: #f3c669;
+      --gold-glow: rgba(243, 198, 105, 0.25);
+      --text-main: #f0eafc;
+      --text-muted: #a39bb8;
+      --border-color: rgba(138, 79, 255, 0.2);
+      --max-width: 1100px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(138, 79, 255, 0.12) 0%, transparent 45%),
+        radial-gradient(circle at 85% 80%, rgba(243, 198, 105, 0.08) 0%, transparent 50%);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, .brand {
+      font-family: 'Cinzel', serif;
+      letter-spacing: 0.03em;
+    }
+
+    /* Container */
+    .container {
+      width: 90%;
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+
+    /* Header / Nav */
+    header {
+      padding: 1.5rem 0;
+      border-bottom: 1px solid var(--border-color);
+      backdrop-filter: blur(10px);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10, 7, 18, 0.85);
+    }
+
+    .nav-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .brand {
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--gold-accent);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .brand-icon {
+      font-size: 1.5rem;
+    }
+
+    .btn-download-sm {
+      background: linear-gradient(135deg, var(--purple-primary), #6127d8);
+      color: #fff;
+      padding: 0.6rem 1.3rem;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      box-shadow: 0 4px 15px var(--purple-glow);
+      transition: all 0.3s ease;
+    }
+
+    .btn-download-sm:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(138, 79, 255, 0.5);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 4rem 0 3rem;
+      text-align: center;
+      position: relative;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      background: rgba(243, 198, 105, 0.1);
+      border: 1px solid var(--gold-accent);
+      color: var(--gold-accent);
+      padding: 0.35rem 1rem;
+      border-radius: 20px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.2rem, 5vw, 3.8rem);
+      line-height: 1.2;
+      margin-bottom: 1.2rem;
+      background: linear-gradient(180deg, #ffffff 0%, #d3c4f7 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero p {
+      max-width: 680px;
+      margin: 0 auto 2rem;
+      color: var(--text-muted);
+      font-size: 1.15rem;
+    }
+
+    /* Interactive Visual Tarot Cards Showcase */
+    .cards-preview {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 3rem 0;
+    }
+
+    .card-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 16px;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      backdrop-filter: blur(12px);
+      transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      position: relative;
+    }
+
+    .card-item:hover {
+      transform: translateY(-8px);
+      border-color: var(--gold-accent);
+      box-shadow: 0 10px 30px var(--gold-glow);
+    }
+
+    .card-number {
+      font-family: 'Cinzel', serif;
+      font-size: 2rem;
+      color: var(--gold-accent);
+      margin-bottom: 0.5rem;
+    }
+
+    .card-item h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.75rem;
+      color: #fff;
+    }
+
+    .card-item p {
+      font-size: 0.95rem;
+      color: var(--text-muted);
+    }
+
+    /* Content Body */
+    .content-section {
+      background: var(--bg-card);
+      border: 1px solid var(--border-color);
+      border-radius: 20px;
+      padding: 3rem 2.5rem;
+      margin-bottom: 4rem;
+      backdrop-filter: blur(10px);
+    }
+
+    .content-section h2 {
+      font-size: 1.8rem;
+      color: var(--gold-accent);
+      margin: 2rem 0 1rem;
+    }
+
+    .content-section h2:first-of-type {
+      margin-top: 0;
+    }
+
+    .content-section p {
+      margin-bottom: 1.2rem;
+      color: var(--text-main);
+    }
+
+    .spread-list {
+      list-style: none;
+      margin: 1.5rem 0;
+    }
+
+    .spread-list li {
+      padding: 1rem 1.2rem;
+      background: rgba(255, 255, 255, 0.03);
+      border-left: 3px solid var(--purple-primary);
+      margin-bottom: 0.8rem;
+      border-radius: 0 8px 8px 0;
+    }
+
+    .spread-list strong {
+      color: var(--gold-accent);
+    }
+
+    /* App Promotion Banner CTA */
+    .app-cta {
+      background: linear-gradient(135deg, rgba(35, 20, 60, 0.9) 0%, rgba(15, 10, 30, 0.95) 100%);
+      border: 1px solid var(--gold-accent);
+      border-radius: 24px;
+      padding: 3.5rem 2rem;
+      text-align: center;
+      margin: 4rem 0;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    }
+
+    .app-cta::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: radial-gradient(circle, var(--purple-glow) 0%, transparent 60%);
+      pointer-events: none;
+    }
+
+    .app-cta-content {
+      position: relative;
+      z-index: 2;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    .app-cta h2 {
+      font-size: 2.2rem;
+      color: #fff;
+      margin-bottom: 1rem;
+    }
+
+    .app-cta p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+    }
+
+    .store-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 1.2rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-store {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      color: #fff;
+      padding: 0.8rem 1.8rem;
+      border-radius: 12px;
+      text-decoration: none;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      backdrop-filter: blur(5px);
+      transition: all 0.3s ease;
+    }
+
+    .btn-store:hover {
+      background: #fff;
+      color: var(--bg-dark);
+      transform: translateY(-3px);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border-color);
+      padding: 2.5rem 0;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: var(--gold-accent);
+      text-decoration: none;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .content-section {
+        padding: 2rem 1.5rem;
+      }
+      
+      .app-cta {
+        padding: 2.5rem 1.2rem;
+      }
+
+      .app-cta h2 {
+        font-size: 1.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header>
+    <div class="container nav-wrapper">
+      <a href="#" class="brand">
+        <span class="brand-icon">✦</span> Celestial Tarot
+      </a>
+      <a href="#download" class="btn-download-sm">Get the App</a>
+    </div>
+  </header>
+
+  <!-- Main Content Area -->
+  <main class="container">
+    
+    <!-- Hero Section -->
+    <section class="hero">
+      <span class="hero-badge">Tarot Guide & Spreads</span>
+      <h1>Mastering the 3-Card Tarot Spread</h1>
+      <p>Uncover clarity, direction, and deep personal insight with the most versatile layout in modern tarot practice.</p>
+    </section>
+
+    <!-- Visual Card Showcase -->
+    <section class="cards-preview" aria-label="3 Card Spread Visual Breakdown">
+      <article class="card-item">
+        <div class="card-number">I</div>
+        <h3>Card 1: Past / Root Cause</h3>
+        <p>Examines past influences, underlying energy, or foundational experiences shaping your present situation.</p>
+      </article>
+
+      <article class="card-item">
+        <div class="card-number">II</div>
+        <h3>Card 2: Present / Challenge</h3>
+        <p>Highlights current circumstances, immediate opportunities, or active obstacles you face today.</p>
+      </article>
+
+      <article class="card-item">
+        <div class="card-number">III</div>
+        <h3>Card 3: Future / Outcome</h3>
+        <p>Reveals potential trajectory, recommended actions, or spiritual guidance moving forward.</p>
+      </article>
+    </section>
+
+    <!-- Comprehensive Content Section -->
+    <article class="content-section">
+      <h2>Why the 3-Card Spread is So Powerful</h2>
+      <p>Whether you are a seasoned practitioner or pulling your first deck, the 3-card spread delivers clear, actionable clarity without the overwhelming complexity of larger layouts like the Celtic Cross.</p>
+      <p>By establishing a narrative triangle—connecting origin, current state, and evolution—this spread helps tap into your intuition and reveal underlying patterns in love, career, or daily decisions.</p>
+
+      <h2>Top 3 Popular Variations for Daily Practice</h2>
+      <ul class="spread-list">
+        <li><strong>1. Past • Present • Future:</strong> The classic timeline layout ideal for general life inquiries and daily check-ins.</li>
+        <li><strong>2. Mind • Body • Spirit:</strong> Perfect for personal wellness readings to balance mental state, physical energy, and spiritual alignment.</li>
+        <li><strong>3. Situation • Action • Outcome:</strong> A decision-making framework designed to guide practical next steps when facing tough choices.</li>
+      </ul>
+
+      <h2>How to Conduct an Accurate 3-Card Reading</h2>
+      <p><strong>Step 1: Clear Your Mind.</strong> Take three deep breaths and focus on a specific, open-ended question rather than a simple yes/no inquiry.</p>
+      <p><strong>Step 2: Shuffle and Draw.</strong> Shuffle your deck while holding your intention in mind, then pull three cards that draw your attention.</p>
+      <p><strong>Step 3: Look for Connections.</strong> Notice recurring suits, numbers, or visual themes between the three cards before diving into individual card meanings.</p>
+    </article>
+
+    <!-- App Promotion Banner CTA -->
+    <section id="download" class="app-cta">
+      <div class="app-cta-content">
+        <h2>Carry the Oracle in Your Pocket</h2>
+        <p>Want instant 3-card spreads, daily card notifications, and personalized AI readings wherever you go? Download <strong>Celestial Tarot</strong> today.</p>
+        
+        <div class="store-buttons">
+          <a href="#" class="btn-store">
+            <span> iOS App Store</span>
+          </a>
+          <a href="#" class="btn-store">
+            <span>▶ Google Play</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>© 2026 Celestial Tarot. All rights reserved. Created for seeker guidance and daily clarity.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
